@@ -22,7 +22,7 @@ Contains demographic, behavioral (learning task, test phase, scale), and computa
 
 *utilities.R* defines variables and functions to be shared across scripts.
 
-*demog.R* takes demographic and WASI matrix reasoning data inputs from data/ and data/behav/ and writes outputs to results/demog/.
+*demog.R* takes demographic and WASI matrix reasoning data inputs from data/ and data/behav/ and writes outputs to results/demog/ and results/wasi/.
 
 *stat_mods.R* takes learning task, test phase, pre- and post-subjective rating, reinforcement report, and subjective value of money data inputs from data/behav/ and writes outputs to results/learn/, results/test/, and results/scales/.
 
