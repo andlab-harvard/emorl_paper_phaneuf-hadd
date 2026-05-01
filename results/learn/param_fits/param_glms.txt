@@ -1,0 +1,50 @@
+ Family: beta  ( logit )
+Formula:          beta_fract ~ ExactAge
+Data: emoBias_fitParams
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   -363.3    -354.9     184.6    -369.3       118 
+
+
+Dispersion parameter for beta family (): 3.78 
+
+Conditional model:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept) -3.29614    0.34074  -9.674  < 2e-16 ***
+ExactAge     0.08258    0.01943   4.250 2.14e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+ Family: beta  ( logit )
+Formula:          alpha_squeeze ~ ExactAge
+Data: emoBias_fitParams
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   -111.5    -103.1      58.7    -117.5       118 
+
+
+Dispersion parameter for beta family (): 1.18 
+
+Conditional model:
+            Estimate Std. Error z value Pr(>|z|)    
+(Intercept) -1.36288    0.41154  -3.312 0.000927 ***
+ExactAge     0.04490    0.02511   1.788 0.073745 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+ Family: beta  ( logit )
+Formula:          omega_squeeze ~ ExactAge
+Data: emoBias_fitParams
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   -164.2    -155.8      85.1    -170.2       118 
+
+
+Dispersion parameter for beta family (): 0.717 
+
+Conditional model:
+            Estimate Std. Error z value Pr(>|z|)
+(Intercept)  0.01708    0.43926   0.039    0.969
+ExactAge    -0.01621    0.02709  -0.598    0.550

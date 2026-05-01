@@ -1,0 +1,19 @@
+
+Call:
+lm(formula = t_score ~ ExactAge, data = wasi)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-30.026  -5.626  -0.276   6.141  18.950 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  60.0105     3.0555  19.640   <2e-16 ***
+ExactAge     -0.1074     0.1882  -0.571    0.569    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 9.142 on 118 degrees of freedom
+Multiple R-squared:  0.002752,	Adjusted R-squared:  -0.0057 
+F-statistic: 0.3256 on 1 and 118 DF,  p-value: 0.5694
+

@@ -1,0 +1,9 @@
+Analysis of Deviance Table (Type II Wald chisquare tests)
+
+Response: report_squeeze
+                   Chisq Df Pr(>Chisq)    
+ExactAge          8.4683  1   0.003614 ** 
+Amount          929.5316  4  < 2.2e-16 ***
+ExactAge:Amount 119.9357  4  < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

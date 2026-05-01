@@ -1,0 +1,37 @@
+Analysis of Deviance Table (Type II Wald chisquare tests)
+
+Response: rt
+                      Chisq Df Pr(>Chisq)    
+pair_class          54.6267  3  8.248e-12 ***
+ExactAge             1.2874  1     0.2565    
+pair_class:ExactAge 47.1769  3  3.187e-10 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+EMMEANS FOR LMER RT MODEL
+
+Age points:
+[1] 10.0 15.5 21.0
+
+Holm-Corrected P-Values
+
+ExactAge = 10.0:
+ contrast                              estimate   SE  df z.ratio p.value
+ same_rew_diff_emo - same_rew_same_emo  -143.90 39.8 Inf  -3.619  0.0009
+ diff_rew_same_emo - same_rew_same_emo   -29.95 41.9 Inf  -0.715  0.4749
+ diff_rew_diff_emo - same_rew_same_emo  -111.12 41.9 Inf  -2.651  0.0160
+
+ExactAge = 15.5:
+ contrast                              estimate   SE  df z.ratio p.value
+ same_rew_diff_emo - same_rew_same_emo   -76.85 24.7 Inf  -3.112  0.0019
+ diff_rew_same_emo - same_rew_same_emo  -135.35 26.0 Inf  -5.200  <.0001
+ diff_rew_diff_emo - same_rew_same_emo  -176.74 26.0 Inf  -6.789  <.0001
+
+ExactAge = 21.0:
+ contrast                              estimate   SE  df z.ratio p.value
+ same_rew_diff_emo - same_rew_same_emo    -9.81 39.0 Inf  -0.251  0.8015
+ diff_rew_same_emo - same_rew_same_emo  -240.76 41.1 Inf  -5.855  <.0001
+ diff_rew_diff_emo - same_rew_same_emo  -242.35 41.1 Inf  -5.893  <.0001
+
+Degrees-of-freedom method: asymptotic 
+P value adjustment: holm method for 3 tests 

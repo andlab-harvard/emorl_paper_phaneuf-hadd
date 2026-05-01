@@ -1,0 +1,17 @@
+Data_Model,AIC_Value
+mdnAIC_vanillaM_vanillaD,251.008960602218
+mdnAIC_vanillaM_emoBiasD,242.980671827637
+mdnAIC_vanillaM_condD,232.374649982651
+mdnAIC_vanillaM_condBetaD,223.767751758091
+mdnAIC_emoBiasM_vanillaD,250.100328124007
+mdnAIC_emoBiasM_emoBiasD,222.289928613173
+mdnAIC_emoBiasM_condD,229.070636352852
+mdnAIC_emoBiasM_condBetaD,224.189419268493
+mdnAIC_condM_vanillaD,252.353201262297
+mdnAIC_condM_emoBiasD,231.998360660514
+mdnAIC_condM_condD,202.815931075916
+mdnAIC_condM_condBetaD,193.631193571335
+mdnAIC_condBetaM_vanillaD,251.473085116602
+mdnAIC_condBetaM_emoBiasD,231.36541281136
+mdnAIC_condBetaM_condD,209.88701404876
+mdnAIC_condBetaM_condBetaD,192.792284303776

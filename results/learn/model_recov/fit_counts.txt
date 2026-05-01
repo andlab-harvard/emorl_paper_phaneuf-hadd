@@ -1,0 +1,39 @@
+Vanilla Model AIC Counts
+
+  vanillaM_vanillaD vanillaM_emoBiasD vanillaM_condD vanillaM_condBetaD
+1                33                25             26                 37
+
+Vanilla Model BIC Counts
+
+  vanillaM_vanillaD vanillaM_emoBiasD vanillaM_condD vanillaM_condBetaD
+1                33                25             26                 37
+
+EmoBias Model AIC Counts
+
+  emoBiasM_vanillaD emoBiasM_emoBiasD emoBiasM_condD emoBiasM_condBetaD
+1                32                37             24                 28
+
+EmoBias Model BIC Counts
+
+  emoBiasM_vanillaD emoBiasM_emoBiasD emoBiasM_condD emoBiasM_condBetaD
+1                32                37             24                 28
+
+Cond Model AIC Counts
+
+  condM_vanillaD condM_emoBiasD condM_condD condM_condBetaD
+1             27             18          39              37
+
+Cond Model BIC Counts
+
+  condM_vanillaD condM_emoBiasD condM_condD condM_condBetaD
+1             27             18          39              37
+
+CondBeta Model AIC Counts
+
+  condBetaM_vanillaD condBetaM_emoBiasD condBetaM_condD condBetaM_condBetaD
+1                 28                 19              36                  38
+
+CondBeta Model BIC Counts
+
+  condBetaM_vanillaD condBetaM_emoBiasD condBetaM_condD condBetaM_condBetaD
+1                 28                 19              36                  38

@@ -1,0 +1,17 @@
+Data_Model,BIC_Value
+mdnBIC_vanillaM_vanillaD,257.394874303998
+mdnBIC_vanillaM_emoBiasD,249.366585529417
+mdnBIC_vanillaM_condD,238.760563684431
+mdnBIC_vanillaM_condBetaD,230.153665459871
+mdnBIC_emoBiasM_vanillaD,259.679198676678
+mdnBIC_emoBiasM_emoBiasD,231.868799165843
+mdnBIC_emoBiasM_condD,238.649506905522
+mdnBIC_emoBiasM_condBetaD,233.768289821164
+mdnBIC_condM_vanillaD,268.317985516748
+mdnBIC_condM_emoBiasD,247.963144914965
+mdnBIC_condM_condD,218.780715330367
+mdnBIC_condM_condBetaD,209.595977825786
+mdnBIC_condBetaM_vanillaD,267.437869371053
+mdnBIC_condBetaM_emoBiasD,247.330197065812
+mdnBIC_condBetaM_condD,225.851798303211
+mdnBIC_condBetaM_condBetaD,208.757068558227

@@ -1,0 +1,13 @@
+Analysis of Deviance Table (Type II Wald chisquare tests)
+
+Response: ReinReport
+                           Chisq Df Pr(>Chisq)    
+reward                  166.2759  1  < 2.2e-16 ***
+emotion                  17.0469  1  3.647e-05 ***
+ExactAge                  0.3303  1     0.5655    
+reward:emotion            1.3651  1     0.2426    
+reward:ExactAge          19.4730  1  1.020e-05 ***
+emotion:ExactAge          0.0009  1     0.9756    
+reward:emotion:ExactAge   0.0681  1     0.7941    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

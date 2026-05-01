@@ -1,0 +1,50 @@
+Analysis of Deviance Table (Type II Wald chisquare tests)
+
+Response: acc
+                                   Chisq Df Pr(>Chisq)    
+condition                       141.6685  3  < 2.2e-16 ***
+instance_z                      259.8153  1  < 2.2e-16 ***
+ExactAge_z                       27.2436  1  1.794e-07 ***
+condition:instance_z              8.7755  3    0.03243 *  
+condition:ExactAge_z              4.3693  3    0.22425    
+instance_z:ExactAge_z            67.1827  1  2.475e-16 ***
+condition:instance_z:ExactAge_z   1.5901  3    0.66163    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+EMMEANS FOR GLMER ACCURACY MODEL
+
+Time points:
+[1] -0.6159607  0.5389722  1.6939050
+
+Holm-Corrected P-Values
+
+instance_z = -0.616:
+ contrast        estimate     SE  df z.ratio p.value
+ (H+F-) - (H+H-)  0.19292 0.0493 Inf   3.917  0.0003
+ (H+F-) - (F+F-)  0.17639 0.0492 Inf   3.583  0.0007
+ (H+F-) - (F+H-)  0.55240 0.0489 Inf  11.298  <.0001
+ (H+H-) - (F+F-) -0.01653 0.0487 Inf  -0.340  0.7341
+ (H+H-) - (F+H-)  0.35948 0.0483 Inf   7.442  <.0001
+ (F+F-) - (F+H-)  0.37601 0.0483 Inf   7.788  <.0001
+
+instance_z =  0.539:
+ contrast        estimate     SE  df z.ratio p.value
+ (H+F-) - (H+H-)  0.10977 0.0512 Inf   2.143  0.0964
+ (H+F-) - (F+F-)  0.10226 0.0512 Inf   1.999  0.0964
+ (H+F-) - (F+H-)  0.40582 0.0502 Inf   8.084  <.0001
+ (H+H-) - (F+F-) -0.00751 0.0508 Inf  -0.148  0.8824
+ (H+H-) - (F+H-)  0.29605 0.0499 Inf   5.938  <.0001
+ (F+F-) - (F+H-)  0.30357 0.0498 Inf   6.099  <.0001
+
+instance_z =  1.694:
+ contrast        estimate     SE  df z.ratio p.value
+ (H+F-) - (H+H-)  0.02663 0.0890 Inf   0.299  1.0000
+ (H+F-) - (F+F-)  0.02813 0.0889 Inf   0.317  1.0000
+ (H+F-) - (F+H-)  0.25925 0.0872 Inf   2.973  0.0177
+ (H+H-) - (F+F-)  0.00150 0.0883 Inf   0.017  1.0000
+ (H+H-) - (F+H-)  0.23262 0.0867 Inf   2.684  0.0364
+ (F+F-) - (F+H-)  0.23112 0.0865 Inf   2.670  0.0364
+
+Results are given on the log odds ratio (not the response) scale. 
+P value adjustment: holm method for 6 tests 

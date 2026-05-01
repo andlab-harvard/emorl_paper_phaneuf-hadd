@@ -1,0 +1,7 @@
+Analysis of Deviance Table (Type II Wald chisquare tests)
+
+Response: rt
+                         Chisq Df Pr(>Chisq)
+pair_type_simp          1.9627  3     0.5802
+ExactAge                0.0255  1     0.8732
+pair_type_simp:ExactAge 0.1139  3     0.9901
